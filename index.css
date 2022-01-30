@@ -43,6 +43,13 @@
 .segunda_parte {
   margin-top: 10px;
   border-top: 0.4px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.poema2 {
+
 }
 
 .terceira_parte {
