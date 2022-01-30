@@ -1,21 +1,58 @@
 .header {
-    background-color: #3d88d8;
-    margin-top:0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap:5px;
-    align-items: center;
+  background-color: #3d88d8;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5px;
+  align-items: center;
 }
 
-.nome{
-    font-size:54px;
-    font-family: 'Bebas Neue', cursive; 
+.nome {
+  font-size: 54px;
+  font-family: "Bebas Neue", cursive;
 }
 
+.primeiro_nome {
+  color: black;
+}
+
+.ultimo_nome {
+  color: black;
+}
 .body {
   background-color: #9dbfe3;
-  margin-top:0;
+  margin-top: 0px;
   margin-left: 0;
   margin-right: 0;
+  margin-bottom: 0px;
+}
+
+.main {
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+.primeira_parte {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.segunda_parte {
+  margin-top: 10px;
+  border-top: 0.4px solid #ffffff;
+}
+
+.terceira_parte {
+  border-top: 0.4px solid #ffffff;
+  display: flex;
+}
+
+.footer {
+  background-color: #3d88d8;
+  bottom: 0vh;
+  display: flex;
+  justify-content: space-evenly;
 }
